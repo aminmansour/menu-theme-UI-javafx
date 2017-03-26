@@ -62,7 +62,7 @@ public class Home extends ScrollPane{
         TextArea boxDescription = new TextArea(description);
         boxDescription.setEditable(false);
         vbStack.getChildren().add(boxDescription);
-        Button button = new Button("VIEW");
+        Button button = new Button("View");
         button.getStyleClass().add("green-button-theme");
         vbStack.getChildren().add(button);
         box.getChildren().add(vbStack);
