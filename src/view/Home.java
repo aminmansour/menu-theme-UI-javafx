@@ -7,10 +7,7 @@ import javafx.scene.control.ScrollPane;
 import javafx.scene.control.TextArea;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
-import javafx.scene.layout.BorderPane;
-import javafx.scene.layout.HBox;
-import javafx.scene.layout.Priority;
-import javafx.scene.layout.VBox;
+import javafx.scene.layout.*;
 import jdk.internal.util.xml.impl.Pair;
 
 /**
@@ -36,7 +33,6 @@ public class Home extends ScrollPane{
         setUpGrid(boxDefinition,3);
         BorderPane bpStructure = new BorderPane();
         bpStructure.setCenter(vbUp);
-
         setContent(bpStructure);
         setFitToWidth(true);
         setFitToHeight(true);
